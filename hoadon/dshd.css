@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+}
+body{
+    background: rgb(254 198 212);
+    font-family: Arial;
+    margin-top: 2%;
+}
+
+/*dshd*/
+.tieude{
+    text-align: center;
+}
+.item {
+    background-color: #ffb8c9;
+    margin-top: 1%;
+}

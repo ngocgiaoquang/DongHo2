@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana;
+}
+.tieude{
+    text-align: center;
+}
+h1{
+    font-size: 54px;
+}
+button{
+    height: 39px;
+    width: 117px;
+    margin-left: 2%;
+    border-radius: 12px;
+    border: 1px solid gray;
+}
+.dangnhap{
+    border-radius: 12px;
+    height: 30px;
+    width: 120px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.dangnhap:hover{
+    transition: 1s;
+    background-color: #000000;
+}
+a{
+    width: 76px;
+    height: -1px;
+    margin-top: -7px;
+    text-decoration: none;
+    color:black;;
+    font-size: 15px;
+}
+img{
+    width: 335px;
+    height: 290px;
+}

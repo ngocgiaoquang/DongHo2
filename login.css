@@ -1,0 +1,51 @@
+body{
+    background: rgb(254 198 212);
+    font-family: Verdana;
+}
+.main {
+    padding: 107px;
+    margin-top: -56px;
+    height: 600px; 
+  }
+.khungtieude{
+      margin: auto;
+      width: 400px;
+      height: 85px;
+  }
+.tieude{
+      font-weight: 600;
+      width: 400px;
+      height: 85px;
+      font-size: 35px;
+      text-align: center;
+      line-height: 82px;
+}
+.khungnho{
+    margin-left: 34%;
+}
+label{
+    font-size: 20px;
+}
+button{
+    height: 39px;
+    width: 117px;
+    margin-left: 14%;
+    border-radius: 12px;
+    border: 1px solid gray;
+}
+.CD{
+    border-radius: 30px;
+    width: 50%;
+    height: 30px;
+    border: 1px solid gray;
+    margin-top: 6px;
+}
+.btnDN{
+    border-radius: 30px;
+    width: 155px;
+    height: 50px;
+    border: 1px solid gray;
+    background: white;
+    font-size: 17px;
+}
+ 

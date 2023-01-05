@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+body{
+    background: rgb(254 198 212);
+    font-family: Arial;
+}
+.card-header{
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+}
+button{
+    height: 26px;
+    width: 87px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+.container-fluid{
+    margin-top: 3%;
+}

@@ -1,0 +1,434 @@
+*{
+    margin: 0px;
+}
+body{
+    font-family: Arial;
+}
+p{
+    color: gray;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: fixed;
+    background: rgb(254 198 212);
+    width: 100%;
+  
+}
+li{
+            float: left;
+            font-size: 19px;
+}
+li a, .menu-btn{
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+}
+li a:hover, .menu:hover .menu-btn{
+            color: rgb(255, 110, 110);
+            transition: 1s;
+}
+.menu{
+    display: inline-block;
+    cursor: pointer;
+}
+.menu-content{
+            display: none;
+            background-color: #fec6d4;
+            min-width: 200px;
+            z-index: 999;
+            position: fixed;
+}
+.menu-content a{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+}
+.menu-content a:hover {background-color: #f1f1f1;}
+.menu:hover .menu-content{
+            display: block;
+}
+.khung_menu{
+    height: 54px;
+    width: 100%;
+    margin: auto;
+    top: 0;
+}
+img .khung_CCDV{
+    margin-left: 34px;
+    margin-top: 3%;
+    width: 30%;
+    height: 89%;
+}
+/*link nhan tin*/
+.khung_callmess{
+    display: flex;
+    width: 60px;
+    height: 152px;
+    flex-wrap: wrap;
+    margin-top: 350px;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+}
+/*so luoc van de*/
+.soluoc{
+    width: 100%;
+    height: 180px;
+}
+.tuade{
+    font-size: 23px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.separator::before,.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+/*CCDV*/
+.khung_CCDV{
+    width: 100%;
+    height: 410px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.CCDV{
+   text-align: justify;
+   width: 50%;
+   height: 100%;
+   padding: 33px;
+   padding-top: 1px;
+}
+.CCDV span{
+    font-size: 19px;
+    float: left;
+    height: 70px;
+    line-height: 65px;
+    width: 320px;
+}
+.CCDV div{
+    float: right;
+    height: 70px;
+    width: 198px;
+}
+.CCDV img{
+    float: right;
+}
+/*bang chu 1*/
+.bangchu{
+    width: 100%;
+    height: 100px;
+}
+.AB{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background-color: gray;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 2;
+    left: 0px;
+}
+.AC{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background-color: rgb(254 198 212);
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+
+}
+.TD{
+    width: 70%;
+    height: 100px;
+    position: relative;
+    margin: auto;
+}
+.text_1{
+    width: 92%;
+    height: 28px;
+    margin: auto;
+    margin-top: 13px;
+    font-size: 25px;
+}
+/*nha phan phoi*/
+.NhaPhanPhoi{
+    width: 100%;
+    height: 130px;
+}
+.NhaPhanPhoi p{
+    width: 65%;
+    height: 19px;
+    margin: auto;
+}
+.logo{
+    width: 100%;
+    height: 81px;
+}
+.logo div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 81px;
+}
+/*bang chu 2*/
+.bangchu_1{
+    width: 100%;
+    height: 85px;
+}
+.bangchu_1 .AB{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background-color: gray;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 2;
+    left: 0px;
+}
+.bangchu_1 .AC{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background-color: rgb(254 198 212);
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+}
+.bangchu_1 .TD{
+    width: 51%;
+    height: 100px;
+    position: relative;
+    margin: auto;
+}
+.bangchu_1 .text_1{
+    width: 89%;
+    height: 26px;
+    margin: auto;
+    margin-top: 13px;
+    font-size: 25px;
+}
+/*san pham*/
+.khung{
+    width: 285px;
+    height: 433px;
+}
+
+.slide_2{
+    width: 270px;
+    height: 327px;
+    padding-bottom: 5px;
+    justify-content: center;
+    overflow: hidden;
+}
+.slide_2 img{
+    width: 232px;
+    height: 324px;
+    transition: .25s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+.slide_2 img:hover{
+    -webkit-transform:  scale(1.1);
+    transform: scale(1.1);
+}
+.khungsanpham{
+    width: 95%;
+    height: 433px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    justify-content: space-evenly;
+}
+.khung_sp1{
+    width: 95%;
+    height: 433px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 3%;
+    justify-content: space-evenly;
+}
+.khung_sp2{
+    width: 95%;
+    height: 433px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 3%;
+    justify-content: space-evenly;
+}
+.khunganh{
+    position: relative;
+    width: 229px;
+    height: 327px;
+    overflow: hidden;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+.giamgia{
+    font-size: 15px;
+    float: left;
+    background: yellow;
+    border-radius: 40px;
+    height: 50px;
+    width: 54px;
+    overflow: hidden;
+    line-height: 22px;
+    text-align: center;
+}
+.banchay{
+    font-size: 15px;
+    float: right;
+    background: yellow;
+    border-radius: 40px;
+    height: 50px;
+    width: 54px;
+    overflow: hidden;
+    line-height: 22px;
+    text-align: center;
+}
+.slide_1{
+    width: 236px;
+    height: 69px;
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+}
+.slide_1 .giamgia{
+    margin: 10px;
+}
+.slide_1 .banchay{
+    margin: 10px;
+}
+.sanpham{
+    width: 230px;
+    height: 60px;
+    text-align: center;
+    background: #fec6d4;
+    line-height: 30px;
+    border-radius: 12px;
+}
+.sanpham a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+.sanpham a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+.gia{
+    width: 82%;
+    height: 50px;
+    text-align: center;
+}
+.gia del{
+    font-size: 13px;
+    color: gray;
+}
+.gia b{
+    font-size: 27px;
+    color: #CB0202;
+}
+/*tieu de cuoi*/
+.khungtieudecuoi{
+    width: 106%;
+    height: 274px;
+    background-color: #fec6d4;
+    margin-left: -6%;
+    margin-top: 5%;
+}
+.khungchuatin{
+    margin: auto;
+    height: 100%;
+    width: 1180px;
+}
+.khunganh_1{
+    height: 183px;
+    width: 100%;
+}
+.khungtieudecuoi a{
+    text-decoration: none;
+}
+.khungdiachi{
+    width: 487px;
+    height: 85%;
+    display: flex;
+}
+.khunghethong{
+    height: 100%;
+    width: 495px;
+}
+.font-chinh{
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+.khunggioithieu{
+    width: 200px;
+    height: 177px;
+    border-left: 1px solid;
+    margin-left: 38%;
+    margin-top: -13%;
+}
+.khungchinhsach{
+    width: 285px;
+    height: 207px;
+    border-left: 1px solid;
+    margin-left: 58%;
+    margin-top: -15%;
+}
+.lk_web{
+    width: 213px;
+    height: 174px;
+    border-left: 1px solid;
+    text-align: center;
+    margin-left: 82%;
+    margin-top: -17%;
+}
+.lk_web img{
+    border-radius: 100%;
+}
+.lk_web a:hover {
+    opacity: 0.9;
+    transition: 1s;
+}
+
+.topnav {
+    z-index: 100;
+}
+
+.khunggioithieu div a:link {color: black;}
+.khunggioithieu div a:visited {color: black;}
+.khunggioithieu div a:hover {color: red;font-style: italic;text-decoration: underline;}
+.khunggioithieu div a:active {color: purple;}
+.khungchinhsach a:link {color: black;}
+.khungchinhsach a:visited {color: black;}
+.khungchinhsach a:hover {color: red;font-style: italic;text-decoration: underline;}
+.khungchinhsach  a:active {color: purple;}
